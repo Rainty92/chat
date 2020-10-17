@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="chat.css">
+	<link rel="stylesheet" type="text/css" href="modal.css">
+</head>
+<body>
+
+<div class="modalWrapper">	
+	<div class="modal">
+		Для начала общения в чате добавь свое имя
+		<input type="name" name="userName" class="inputNewUserName" required
+>
+		<button class="createNewUserName">Войти в чат</button>
+	</div>
+</div>
+	<div class="chat_participant_wrapper">
+		<span class="chat_participant">Участники чата:</span> <div class="chatUser"></div>
+	</div>
+<input type="text" name="chatMessage" class="messageText"><br>
+<button class="send btnMsg ">Отправить</button>
+<!-- <button class="remove btnMsg ">Стереть</button> -->
+<ul class="chat"></ul>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

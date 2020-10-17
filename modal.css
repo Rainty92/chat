@@ -1,0 +1,70 @@
+.modalWrapper{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: white;
+}
+.modal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 150px;
+	padding: 30px;
+	text-align: center;
+	border: 1px solid black;
+	background: #b366ff;
+	color: white;
+	text-transform: uppercase;
+	user-select: none;
+	font-family: sans-serif;
+}
+.modal input {
+	margin: 20px 0;
+	border: 3px solid black;
+	border-radius: 10px;
+	outline: none;
+}
+.modal input:focus {
+	background: #fff7d9;
+}
+.modal button {
+	background: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 3px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+	font-size: 12px;
+}
+.modal button:hover {
+	background: black;
+	color: white;
+}
+
+.hide {
+	display: none;
+}
